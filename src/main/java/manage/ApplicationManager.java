@@ -9,6 +9,7 @@ public class ApplicationManager {
     WebDriver wd;
 
     UserHelper user;
+    BoardHelper board;
 
     public void init(){
         wd = new ChromeDriver();
