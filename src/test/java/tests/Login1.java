@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static tests.TestBase.app;
 
-public class Login extends tests.TestBase {
+public class Login1 extends tests.TestBase {
 
     @BeforeMethod
     public void preConditions() {
