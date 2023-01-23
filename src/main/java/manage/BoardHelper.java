@@ -45,7 +45,7 @@ public class BoardHelper extends HelperBase{
     }
 
     public int getBoardCount() {
-        return wd.findElements(By.cssSelector(".boards-page-board-section-list-item")).size()-1-recentlyViewedBoards();
+        return wd.findElements(By.cssSelector(".board-tile-fade")).size()-1-recentlyViewedBoards();
     }
     public  int recentlyViewedBoards(){
         return wd.findElements(By.xpath("//*[contains(@class, 'icon-clock')]/../..//div")).size();
@@ -71,5 +71,9 @@ public class BoardHelper extends HelperBase{
     public void deleteBoard() {
         click(By.cssSelector("[data-testid='close-board-delete-board-button']"));
         click(By.cssSelector("[data-testid='close-board-delete-board-confirm-button']"));
+    }
+
+    public void chooseBackgroung() {
+        click(By.cssSelector("[aria-label='CheckIcon']"));
     }
 }
