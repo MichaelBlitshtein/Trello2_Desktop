@@ -1,0 +1,3 @@
+12:01:39.536  INFO  manage.ApplicationManager - Tests start in Chrome--
+12:01:43.932  INFO  tests.TestBase - Test starts----changeAvatar
+12:01:54.329  INFO  tests.TestBase - ***********************

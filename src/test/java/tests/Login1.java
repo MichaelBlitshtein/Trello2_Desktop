@@ -19,6 +19,7 @@ public class Login1 extends tests.TestBase {
     @Test
     public void login1() {
         User user = User.builder().email("michael.blitshtein@gmail.com").password("Tommy743!!").build();
+        logger.info("Test login positive 1--"+user.getEmail()+""+user.getPassword());
 
         app.getUser().initLogin();
         app.getUser().pause(2000);
@@ -27,6 +28,6 @@ public class Login1 extends tests.TestBase {
         app.getUser().pause(2000);
 
         Assert.assertTrue(app.getUser().isLogged());
-
+        logger.info("Logged--");
     }
 }

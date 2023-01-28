@@ -11,6 +11,7 @@ public class CardCreation extends TestBase{
         app.getBoard().clickOnTheFirstBoard();
         app.getBoard().pause(2000);
         app.getList().createList("test36");
+        app.getBoard().pause(2000);
         app.getCard().initCardCreation();
         app.getCard().fillInCardCreationForm(card);
         app.getCard().submitCardCreation();
