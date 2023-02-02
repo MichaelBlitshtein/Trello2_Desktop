@@ -2,6 +2,8 @@ package manage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
+import org.openqa.selenium.support.events.WebDriverListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,9 +17,12 @@ public class ApplicationManager {
     BoardHelper board;
     ListHelper list;
     CardHelper card;
+    AtlassianHelper atlassian;
 
     public void init(){
         wd = new ChromeDriver();
+        WebDriverListener listener = new MyListener();
+        wd=new EventFiringDecorator<>(listener).decorate(wd);
         logger.info("Tests start in Chrome--");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -27,6 +32,7 @@ public class ApplicationManager {
         board = new BoardHelper(wd);
         list = new ListHelper(wd);
         card = new CardHelper(wd);
+        atlassian = new AtlassianHelper(wd);
 
         user.login("michael.blitshtein@gmail.com","Tommy743!!");
 
@@ -54,5 +60,9 @@ public class ApplicationManager {
     }
     public String getUrl(){
         return wd.getCurrentUrl();
+    }
+
+    public AtlassianHelper getAtlassian() {
+        return atlassian;
     }
 }

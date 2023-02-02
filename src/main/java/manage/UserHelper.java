@@ -68,4 +68,9 @@ public class UserHelper extends HelperBase {
         List<String>tabs = new ArrayList<>(wd.getWindowHandles());
         wd.switchTo().window((tabs.get(tabs.size()-1)));
     }
+
+    public void returnToTrello() {
+        List<String>tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window((tabs.get(0)));
+    }
 }
