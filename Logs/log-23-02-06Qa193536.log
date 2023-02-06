@@ -1,0 +1,32 @@
+19:35:37.914  INFO  manage.ApplicationManager - Tests start in Chrome--
+19:35:41.227  INFO  manage.MyListener - Before find element By --By.cssSelector: [href='/login']
+19:35:41.255  INFO  manage.MyListener - After find element By --By.cssSelector: [href='/login']
+19:36:03.650  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:36:03.679  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:36:03.731  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:36:03.752  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:36:03.785  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:36:03.803  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:36:03.852  INFO  manage.MyListener - Before find element By --By.cssSelector: #login
+19:36:03.877  INFO  manage.MyListener - After find element By --By.cssSelector: #login
+19:36:05.919  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:36:06.716  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:36:06.759  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:36:06.780  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:36:06.806  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:36:06.823  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:36:06.890  INFO  manage.MyListener - Before find element By --By.cssSelector: #login-submit
+19:36:06.911  INFO  manage.MyListener - After find element By --By.cssSelector: #login-submit
+19:36:06.988  INFO  tests.TestBase - Test starts----boarCreation4
+19:36:06.990  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:36:47.860  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:36:47.927  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:36:50.006  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:36:50.055  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:36:53.517  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:36:53.569  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:36:53.588  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:36:53.612  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:36:53.625  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:36:53.715  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:36:53.733  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']

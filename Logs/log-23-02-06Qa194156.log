@@ -1,0 +1,169 @@
+19:41:58.258  INFO  manage.ApplicationManager - Tests start in Chrome--
+19:42:18.788  INFO  manage.MyListener - Before find element By --By.cssSelector: [href='/login']
+19:42:18.814  INFO  manage.MyListener - After find element By --By.cssSelector: [href='/login']
+19:42:41.675  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:42:41.697  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:42:41.730  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:42:41.748  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:42:41.768  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:42:41.785  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:42:41.829  INFO  manage.MyListener - Before find element By --By.cssSelector: #login
+19:42:41.849  INFO  manage.MyListener - After find element By --By.cssSelector: #login
+19:42:43.885  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:42:45.875  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:42:45.912  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:42:45.930  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:42:45.952  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:42:45.966  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:42:46.024  INFO  manage.MyListener - Before find element By --By.cssSelector: #login-submit
+19:42:46.045  INFO  manage.MyListener - After find element By --By.cssSelector: #login-submit
+19:42:46.117  INFO  tests.TestBase - Test starts----boarCreation4
+19:42:46.119  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:06.311  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:06.372  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:43:07.139  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:43:07.178  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:08.445  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:08.482  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:08.497  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:08.525  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:08.544  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:08.655  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:43:08.677  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:43:10.919  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid = 'create-board-submit-button']
+19:43:10.947  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid = 'create-board-submit-button']
+19:43:12.994  INFO  manage.MyListener - Before find elements By --By.cssSelector: .list-name-input
+19:43:13.028  INFO  manage.MyListener - After find elements By --By.cssSelector: .list-name-input
+19:43:13.030  INFO  manage.MyListener - List size is---1
+19:43:13.030  INFO  manage.MyListener - Before find elements By --By.cssSelector: .list-name-input
+19:43:13.044  INFO  manage.MyListener - After find elements By --By.cssSelector: .list-name-input
+19:43:13.044  INFO  manage.MyListener - List size is---1
+19:43:15.047  INFO  manage.MyListener - Before find element By --By.cssSelector: .m2N684FcksCyfT
+19:43:20.064  INFO  manage.MyListener - Have a problem---
+19:43:20.065  INFO  manage.MyListener - The name of error method---findElement
+19:43:20.066  INFO  manage.MyListener - Describe of error---org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".m2N684FcksCyfT"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f03e9136613d2afc6a4f6d00e1ac6e10, findElement {using=css selector, value=.m2N684FcksCyfT}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f03e9136613d2afc6a4f6d00e1ac6e10
+19:43:20.067  INFO  manage.MyListener - *******************************************
+19:43:20.067  INFO  manage.MyListener - ChromeDriver: chrome on WINDOWS (f03e9136613d2afc6a4f6d00e1ac6e10)
+19:43:20.073  INFO  manage.MyListener - Screen with error is---1695src/test/resources/Screens/screen1695.png
+19:43:20.437  INFO  tests.TestBase - ***********************
+19:43:20.438  INFO  tests.TestBase - Test starts----boarCreation4
+19:43:20.438  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:20.453  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:20.505  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:43:20.520  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:43:20.638  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:20.655  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:20.690  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:20.704  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:20.725  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:20.741  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:20.827  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:43:20.841  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:43:23.088  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid = 'create-board-submit-button']
+19:43:28.146  INFO  manage.MyListener - Have a problem---
+19:43:28.146  INFO  manage.MyListener - The name of error method---findElement
+19:43:28.146  INFO  manage.MyListener - Describe of error---org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid = 'create-board-submit-button']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f03e9136613d2afc6a4f6d00e1ac6e10, findElement {using=css selector, value=[data-testid = 'create-board-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f03e9136613d2afc6a4f6d00e1ac6e10
+19:43:28.146  INFO  manage.MyListener - *******************************************
+19:43:28.147  INFO  manage.MyListener - ChromeDriver: chrome on WINDOWS (f03e9136613d2afc6a4f6d00e1ac6e10)
+19:43:28.147  INFO  manage.MyListener - Screen with error is---1878src/test/resources/Screens/screen1878.png
+19:43:28.474  INFO  tests.TestBase - ***********************
+19:43:28.474  INFO  tests.TestBase - Test starts----boarCreation4
+19:43:28.475  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:28.491  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:28.547  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:43:28.576  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='header-create-board-button']
+19:43:28.701  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:28.748  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:28.783  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:28.795  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:28.815  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:28.830  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid='create-board-title-input']
+19:43:28.911  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:43:28.925  INFO  manage.MyListener - After find element By --By.cssSelector: [data-testid = 'header-create-menu-popover']
+19:43:28.939  INFO  manage.MyListener - Have a problem---
+19:43:28.939  INFO  manage.MyListener - The name of error method---perform
+19:43:28.940  INFO  manage.MyListener - Describe of error---org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f03e9136613d2afc6a4f6d00e1ac6e10, actions {actions=[org.openqa.selenium.interactions.Sequence@b791a81]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f03e9136613d2afc6a4f6d00e1ac6e10
+19:43:28.940  INFO  manage.MyListener - *******************************************
+19:43:28.940  INFO  manage.MyListener - ChromeDriver: chrome on WINDOWS (f03e9136613d2afc6a4f6d00e1ac6e10)
+19:43:28.940  INFO  manage.MyListener - Screen with error is---1336src/test/resources/Screens/screen1336.png
+19:43:29.276  INFO  tests.TestBase - ***********************
+19:43:29.278  INFO  tests.TestBase - Test starts----boardCreation2
+19:43:29.279  INFO  manage.MyListener - Before find elements By --By.cssSelector: .board-tile-fade
+19:43:34.334  INFO  manage.MyListener - After find elements By --By.cssSelector: .board-tile-fade
+19:43:34.334  INFO  manage.MyListener - List size is---0
+19:43:34.334  INFO  manage.MyListener - Before find elements By --By.xpath: //*[contains(@class, 'icon-clock')]/../..//div
+19:43:39.301  INFO  manage.MyListener - After find elements By --By.xpath: //*[contains(@class, 'icon-clock')]/../..//div
+19:43:39.302  INFO  manage.MyListener - List size is---0
+19:43:39.302  INFO  manage.MyListener - Before find element By --By.cssSelector: [data-testid='header-create-menu-button']
+19:43:39.318  INFO  manage.MyListener - Have a problem---
+19:43:39.319  INFO  manage.MyListener - The name of error method---findElement
+19:43:39.320  INFO  manage.MyListener - Describe of error---org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f03e9136613d2afc6a4f6d00e1ac6e10, findElement {using=css selector, value=[data-testid='header-create-menu-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f03e9136613d2afc6a4f6d00e1ac6e10
+19:43:39.320  INFO  manage.MyListener - *******************************************
+19:43:39.321  INFO  manage.MyListener - ChromeDriver: chrome on WINDOWS (f03e9136613d2afc6a4f6d00e1ac6e10)
+19:43:39.321  INFO  manage.MyListener - Screen with error is---1586src/test/resources/Screens/screen1586.png
+19:43:39.333  INFO  tests.TestBase - ***********************
+19:43:39.336  INFO  tests.TestBase - Test starts----boardCreation3
+19:43:39.336  INFO  manage.MyListener - Before find elements By --By.cssSelector: .board-tile-fade
+19:43:39.346  INFO  manage.MyListener - Have a problem---
+19:43:39.346  INFO  manage.MyListener - The name of error method---findElements
+19:43:39.346  INFO  manage.MyListener - Describe of error---org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f03e9136613d2afc6a4f6d00e1ac6e10, findElements {using=css selector, value=.board-tile-fade}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f03e9136613d2afc6a4f6d00e1ac6e10
+19:43:39.347  INFO  manage.MyListener - *******************************************
+19:43:39.347  INFO  manage.MyListener - ChromeDriver: chrome on WINDOWS (f03e9136613d2afc6a4f6d00e1ac6e10)
+19:43:39.347  INFO  manage.MyListener - Screen with error is---1690src/test/resources/Screens/screen1690.png
+19:43:39.369  INFO  tests.TestBase - ***********************
+19:43:39.376  INFO  tests.TestBase - Test starts----boardDeletion1
+19:43:39.379  INFO  manage.MyListener - Before find elements By --By.cssSelector: .board-tile-fade
+19:43:39.388  INFO  manage.MyListener - Have a problem---
+19:43:39.388  INFO  manage.MyListener - The name of error method---findElements
+19:43:39.389  INFO  manage.MyListener - Describe of error---org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f03e9136613d2afc6a4f6d00e1ac6e10, findElements {using=css selector, value=.board-tile-fade}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64989/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f03e9136613d2afc6a4f6d00e1ac6e10
+19:43:39.389  INFO  manage.MyListener - *******************************************
+19:43:39.389  INFO  manage.MyListener - ChromeDriver: chrome on WINDOWS (f03e9136613d2afc6a4f6d00e1ac6e10)
+19:43:39.389  INFO  manage.MyListener - Screen with error is---1345src/test/resources/Screens/screen1345.png
+19:43:39.398  INFO  tests.TestBase - ***********************

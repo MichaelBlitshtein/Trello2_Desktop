@@ -76,4 +76,8 @@ public class BoardHelper extends HelperBase{
     public void chooseBackgroung() {
         click(By.cssSelector("[aria-label='CheckIcon']"));
     }
+
+    public void submitBoardCreating() {
+        click(By.cssSelector("[data-testid = 'create-board-submit-button']"));
+    }
 }

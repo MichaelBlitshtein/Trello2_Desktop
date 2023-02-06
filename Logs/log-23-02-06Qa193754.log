@@ -1,0 +1,19 @@
+19:37:55.870  INFO  manage.ApplicationManager - Tests start in Chrome--
+19:37:59.186  INFO  manage.MyListener - Before find element By --By.cssSelector: [href='/login']
+19:37:59.216  INFO  manage.MyListener - After find element By --By.cssSelector: [href='/login']
+19:38:21.645  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:38:21.669  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:38:21.713  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:38:21.731  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:38:21.757  INFO  manage.MyListener - Before find element By --By.cssSelector: #user
+19:38:21.773  INFO  manage.MyListener - After find element By --By.cssSelector: #user
+19:38:21.817  INFO  manage.MyListener - Before find element By --By.cssSelector: #login
+19:38:21.837  INFO  manage.MyListener - After find element By --By.cssSelector: #login
+19:38:23.874  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:38:25.051  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:38:25.089  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:38:25.106  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:38:25.127  INFO  manage.MyListener - Before find element By --By.cssSelector: #password
+19:38:25.141  INFO  manage.MyListener - After find element By --By.cssSelector: #password
+19:38:25.196  INFO  manage.MyListener - Before find element By --By.cssSelector: #login-submit
+19:38:25.215  INFO  manage.MyListener - After find element By --By.cssSelector: #login-submit
